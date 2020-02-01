@@ -1,0 +1,161 @@
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+
+.intro-div{
+    
+position: absolute;
+top:0;
+width: 50%;
+
+   
+}
+
+
+#logo{
+  margin-top: 15%;
+  margin-left: 20%;
+  margin-bottom: 10%;
+    
+}
+
+.paragraph-section{
+   margin-left: 20%;
+   margin-bottom: 10%;
+   width: 30%;
+}
+
+.paragraph-section h1{
+    
+}
+
+
+
+
+.paragraph-section  span{
+    background-color:#242942;
+    color: white;
+    padding: 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.75em;
+    margin: 3% 3%;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 50%;
+    
+}
+
+.paragraph-section #first-paragraph{
+       text-transform: uppercase;
+       color:#CDD2D6;
+       display: inline;
+       
+}
+
+.paragraph-section #last-paragraph{
+   
+   color:#ACACAE ;
+}
+
+
+
+.button-section{
+   
+    margin-left: 20%;
+}
+
+
+
+.button-section Button {
+    background-color: #ff5d5d;
+    border: none;
+    color: white;
+    padding: 5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.75em;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline;
+}
+
+
+/* The first section art divs */
+
+
+.art-div{
+  
+  position: absolute;
+  top:0;
+  right:0;
+  width: 50%;
+  height: auto;
+  
+}
+
+.art-div img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.art-div ul{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-transform: uppercase;
+    
+}
+
+.art-div ul li{
+    list-style: none;
+    display: inline;
+    padding: 6%;
+    color: black;
+    
+    
+}
+
+.art-div ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+} 
+
+.art-div ul li a:hover{
+    background-color:whitesmoke;
+    
+}
+
+
+.art-div .dotted-circle{
+   
+  
+}
+
+.art-div .login-grey{
+    color:#ACACAE;
+    
+
+    
+}
+
+
+
+/* the second section background gris*/
+.art-background{
+ background-color:#CDD2D6;
+  width: 50%;
+  margin-right: 2%;
+  height: 250px;
+  float: right; 
+  border-bottom-left-radius: 4em;
+}
